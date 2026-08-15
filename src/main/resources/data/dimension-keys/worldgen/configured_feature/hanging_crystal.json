@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "discard_chance_on_air_exposure": 0.0,
+    "size": 24,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "dimension-keys:crystal_stone"
+        },
+        "state": {
+          "Name": "dimension-keys:luminous_crystal"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "dimension-keys:ancient_crystal_rock"
+        },
+        "state": {
+          "Name": "dimension-keys:luminous_crystal"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "dimension-keys:crystal_block"
+        },
+        "state": {
+          "Name": "dimension-keys:luminous_crystal"
+        }
+      }
+    ]
+  }
+}

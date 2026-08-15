@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:max",
+    "argument1": {
+      "type": "minecraft:max",
+      "argument1": "dimension-keys:terrain",
+      "argument2": "dimension-keys:ceiling"
+    },
+    "argument2": {
+      "type": "minecraft:max",
+      "argument1": "dimension-keys:mountains",
+      "argument2": {
+        "type": "minecraft:max",
+        "argument1": "dimension-keys:pillars",
+        "argument2": {
+          "type": "minecraft:max",
+          "argument1": "dimension-keys:hanging_cliffs",
+          "argument2": {
+            "type": "minecraft:max",
+            "argument1": "dimension-keys:islands",
+            "argument2": "dimension-keys:ledges"
+          }
+        }
+      }
+    }
+  },
+  "argument2": "dimension-keys:roughness"
+}

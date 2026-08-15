@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:max",
+  "argument1": {
+    "type": "minecraft:mul",
+    "argument1": "dimension-keys:jagged",
+    "argument2": "dimension-keys:hanging_mask"
+  },
+  "argument2": "dimension-keys:hanging_columns"
+}

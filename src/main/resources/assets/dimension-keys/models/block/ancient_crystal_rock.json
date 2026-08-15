@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dimension-keys:block/ancient_crystal_rock"
+  }
+}

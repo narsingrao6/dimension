@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "dimension-keys:crystal_ore",
+    "dimension-keys:crystal_stone",
+    "dimension-keys:ancient_crystal_rock",
+    "dimension-keys:crystal_block",
+    "dimension-keys:luminous_crystal",
+    "dimension-keys:prism_crystal",
+    "dimension-keys:small_crystal_bud",
+    "dimension-keys:medium_crystal_bud",
+    "dimension-keys:large_crystal_cluster"
+  ]
+}

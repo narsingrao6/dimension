@@ -1,0 +1,21 @@
+{
+  "item.dimension-keys.crystal_fragment": "Crystal Fragment",
+  "item.dimension-keys.ancient_crystal_relic": "§6Ancient Crystal Relic",
+  "item.dimension-keys.ancient_crystal_relic.desc": "§7A forgotten relic from an ancient civilization.",
+  "item.dimension-keys.crystal_caverns_key": "Crystal Caverns Key",
+  "item.dimension-keys.crystal_caverns_key.desc": "§7Forged from relic and crystal alike. It hums with the power to tear open a path to the Crystal Caverns.",
+  "block.dimension-keys.crystal_ore": "Crystal Ore",
+  "block.dimension-keys.crystal_block": "Crystal Block",
+  "block.dimension-keys.crystal_stone": "Crystal Stone",
+  "block.dimension-keys.ancient_crystal_rock": "Ancient Crystal Rock",
+  "block.dimension-keys.luminous_crystal": "Luminous Crystal",
+  "block.dimension-keys.prism_crystal": "Prism Crystal",
+  "block.dimension-keys.crystal_portal": "Crystal Portal",
+  "block.dimension-keys.small_crystal_bud": "Small Cavern Crystal Bud",
+  "block.dimension-keys.medium_crystal_bud": "Medium Cavern Crystal Bud",
+  "block.dimension-keys.large_crystal_cluster": "Large Cavern Crystal Cluster",
+  "itemGroup.dimension-keys.dimension_keys_group": "Dimension Keys",
+  "message.dimension-keys.no_frame": "§7No complete Crystal Portal frame here - crystal edges, hollow inside.",
+  "message.dimension-keys.portal_activated": "§bThe Crystal Portal roars to life!",
+  "message.dimension-keys.destination_not_ready": "§7The portal shudders - the Crystal Caverns haven't been carved open yet."
+}

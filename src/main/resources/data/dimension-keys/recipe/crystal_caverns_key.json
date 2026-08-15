@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "dimension-keys:crystal_fragment",
+    "R": "dimension-keys:ancient_crystal_relic"
+  },
+  "pattern": [
+    " C ",
+    "CRC",
+    " C "
+  ],
+  "result": {
+    "id": "dimension-keys:crystal_caverns_key",
+    "count": 1
+  }
+}

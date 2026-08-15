@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "dimension-keys:item/crystal_caverns_key"
+  }
+}

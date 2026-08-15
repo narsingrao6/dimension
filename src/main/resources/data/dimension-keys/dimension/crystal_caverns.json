@@ -1,0 +1,11 @@
+{
+  "type": "dimension-keys:crystal_caverns",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "dimension-keys:crystal_caverns",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "dimension-keys:crystal_caverns"
+    }
+  }
+}

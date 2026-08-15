@@ -1,0 +1,62 @@
+{
+  "attributes": {
+    "minecraft:visual/fog_color": "#0d2026"
+  },
+  "carvers": [],
+  "downfall": 0.0,
+  "effects": {
+    "ambient_sound": "minecraft:ambient.cave",
+    "particle": {
+      "options": {
+        "type": "minecraft:end_rod"
+      },
+      "probability": 0.25
+    },
+    "water_color": "#1a4a5a",
+    "water_fog_color": "#062030"
+  },
+  "features": [
+    [],
+    [],
+    [
+      "dimension-keys:crystal_ore_placed_deep",
+      "dimension-keys:crystal_ore_placed_caverns",
+      "dimension-keys:ancient_rock_formation_placed",
+      "dimension-keys:crystal_block_formation_placed",
+      "dimension-keys:crystal_block_spread_placed",
+      "dimension-keys:prism_crystal_cluster_placed",
+      "dimension-keys:amethyst_geode_placed"
+    ],
+    [
+      "dimension-keys:giant_crystal_spire_placed",
+      "dimension-keys:luminous_crystal_cluster_placed",
+      "dimension-keys:luminous_crystal_spread_placed",
+      "dimension-keys:hanging_crystal_placed"
+    ],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.5
+}

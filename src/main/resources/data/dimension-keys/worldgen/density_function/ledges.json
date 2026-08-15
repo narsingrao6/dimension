@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:mul",
+  "argument1": {
+    "type": "minecraft:squeeze",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:noise",
+        "noise": "dimension-keys:terrain_xy",
+        "xz_scale": 0.1,
+        "y_scale": 0.03
+      },
+      "argument2": -0.55
+    }
+  },
+  "argument2": {
+    "type": "minecraft:y_clamped_gradient",
+    "from_y": 50,
+    "to_y": 265,
+    "from_value": 0.0,
+    "to_value": 1.0
+  }
+}
