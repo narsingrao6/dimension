@@ -5,8 +5,12 @@
     "type": "minecraft:add",
     "argument1": {
       "type": "minecraft:mul",
-      "argument1": "dimension-keys:pillar_xy_flat",
-      "argument2": 1.2
+      "argument1": {
+        "type": "minecraft:add",
+        "argument1": "dimension-keys:pillar_xy_flat",
+        "argument2": -0.5
+      },
+      "argument2": 3.5
     },
     "argument2": {
       "type": "minecraft:add",
@@ -14,13 +18,22 @@
         "type": "minecraft:mul",
         "argument1": {
           "type": "minecraft:noise",
-          "noise": "dimension-keys:terrain_xy",
-          "xz_scale": 0.15,
-          "y_scale": 0.0
+          "noise": "dimension-keys:pillar_xy",
+          "xz_scale": 1.1,
+          "y_scale": 0.45
         },
-        "argument2": 0.3
+        "argument2": 0.32
       },
-      "argument2": -0.15
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:noise",
+          "noise": "dimension-keys:terrain_xy",
+          "xz_scale": 0.45,
+          "y_scale": 0.6
+        },
+        "argument2": 0.22
+      }
     }
   }
 }

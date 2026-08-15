@@ -1,6 +1,6 @@
 {
   "type": "minecraft:noise",
   "noise": "dimension-keys:pillar_xy",
-  "xz_scale": 1.2,
+  "xz_scale": 0.62,
   "y_scale": 0.0
 }
